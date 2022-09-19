@@ -76,7 +76,7 @@ list2.append("leche")
 ###### print the last item in the new list
 print(list2[-1])
 ###### sort the list
-
+#print(list2.sort())
 ###### find a way to insert a new item at the 3rd position of the list
 list2.insert(3, "bobu")
 ###### print the new list out
@@ -86,20 +86,21 @@ list2.reverse()
 ###### print the new list out
 print(list2)
 ###### print out the length of the new list
-
+print(len(list2))
 #####################################challenge 2#######################################################
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
 word_list = ["Simple", "is", "better", "than", "complex."]
-
+print(" ".join(word_list))
 # Print the following text in uppercase, using the specific string method:
 
 text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
+print(text1.upper())
 
 #substrings
 # Take every third character starting from the ninth to the end of the sentence, and print the result.
 
 text2 = "Never trust a computer you can't throw out a window"
-
+print(text2[8:27:3])
 # Reverses the position of all the characters in the following sentence and displays the result on the screen.
 
 text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
