@@ -104,7 +104,8 @@ print(text2[8:27:3])
 # Reverses the position of all the characters in the following sentence and displays the result on the screen.
 
 text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
-# print(text3.reverse())
+#print(text3.reverse())
+print(text3[::-1])
 
 # Extract the first word of the following sentence using slicing, and display it on the screen:
 sentence ="Controlling complexity is the essence of programming"
