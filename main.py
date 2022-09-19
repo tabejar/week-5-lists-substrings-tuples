@@ -16,7 +16,28 @@ print(newSentence.rindex("practice"))
 ###############################################Review############################################################
 #####################################challenge 1################################################################
 # Create a list with 5 elements, inside the variable my_list. You can include strings, booleans, numbers, etc.
-my_list = ["bay","ddaa", 34, 56]
+my_list1 = ["bay","ddaa", 34, 56, 78, 89, 102]
+#append will add to the end of the list
+my_list1.append("jewelry")
+print(my_list1)
+my_list1.pop()
+#pop removes from the end
+print(my_list1)
+my_list1.remove("ddaa")
+#removes an item at a certain index
+print(my_list1)
+my_list1.insert(3, "bobba bobba")
+print(my_list1)
+my_list1.insert(1,"bobby hill")
+my_list1.insert(2, "ack")
+print(my_list1)
+
+my_list2 = ["fortnite", 5, 62, "booba", "propane", "banana"]
+#join the my_list1 with my_list2 in a new variable called my_list3
+#my_list3 = my_list1 + my_list2
+#print(my_list3)
+
+
 
 
 # Add the element "motorcycle" to the following list of means of transportation:
@@ -39,28 +60,31 @@ luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
-
+list2 = luckyNumbers + friends
 ###### print the new list out
-#print(newList2)
+print(list2)
 ###### print out the first item in the list
-
+print(list2[0])
 ###### remove the last item of the new list
-
+list2.remove("lord tennyson")
 ###### print the new list out without the last item
-
+print(list2)
 ###### add three more items to the end of the list
-
+list2.append("banana")
+list2.append("bread")
+list2.append("leche")
 ###### print the last item in the new list
-
+print(list2[-1])
 ###### sort the list
 
 ###### find a way to insert a new item at the 3rd position of the list
-
+list2.insert(3, "bobu")
 ###### print the new list out
-
+print(list2)
 ##### reverse the list
-
+list2.reverse()
 ###### print the new list out
+print(list2)
 ###### print out the length of the new list
 
 #####################################challenge 2#######################################################
